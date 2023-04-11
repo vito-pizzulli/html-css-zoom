@@ -20,7 +20,7 @@
     background-color: black;
     height: 90vh;
     overflow: auto;
-    padding: 5rem 2rem 1rem 2rem;
+    padding: 3.5rem 2rem 0.5rem 2rem;
   }
 
   footer {
@@ -29,20 +29,22 @@
   }
 
   .videocall-box {
+    position: relative;
     margin: .2rem;
+    cursor: grab;
   }
 
   .videocall-picture {
     width: 200px;
   }
 
-  .top-button-section {
+  header .button-section {
     position: absolute;
     top: .3rem;
     right: .3rem;
   }
 
-  .top-button {
+  header .button {
     background-color: #484848;
     border-radius: .3rem;
     color: white;
@@ -50,4 +52,14 @@
     padding: .3rem;
     cursor: pointer;
     display: inline-block;
+  }
+
+  .user-name {
+    background-color: rgb(102, 113, 122, 0.7);
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0.22rem;
+    font-size: .7rem;
+    padding: .3rem;
   }
