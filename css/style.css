@@ -24,10 +24,6 @@ align-items: flex-end;
 justify-content: space-between;
 }
 
-.direction-column {
-flex-direction: column;
-}
-
 main {
 background-color: black;
 height: 90vh;
@@ -80,6 +76,7 @@ footer .button-section {
 color: white;
 font-size: .7rem;
 text-align: center;
+height: 100%;
 }
 
 footer .button-section i {
@@ -91,11 +88,24 @@ font-size: .6rem;
 padding: 1rem;
 }
 
+footer .button-section i.arrow:hover {
+    cursor: pointer;
+    }
+
+footer .button {
+    height: 100%;
+}
+
+header .button:hover,
+footer .button:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
 footer .button i,
 footer .button p {
 padding-left: .8rem;
 }
 
 footer .button i {
-    padding-bottom: .8rem
+    padding-bottom: .4rem
 }
