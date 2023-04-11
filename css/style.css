@@ -53,6 +53,7 @@ header .button-section {
 position: absolute;
 top: .3rem;
 right: .3rem;
+z-index: 1;
 }
 
 header .button {
@@ -120,4 +121,3 @@ footer .button i {
     font-size: .8rem;
     color: red;
 }
-
