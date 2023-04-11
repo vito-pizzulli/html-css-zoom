@@ -88,7 +88,7 @@ font-size: 1.5rem;
 
 footer .button-section i.arrow {
 font-size: .6rem;
-padding: 1rem;
+padding: 1rem 1rem 1rem 0.5rem;
 }
 
 footer .button-section i.arrow:hover {
@@ -97,6 +97,7 @@ footer .button-section i.arrow:hover {
 
 footer .button {
     height: 100%;
+    padding: .6rem;
 }
 
 header .button:hover,
@@ -106,13 +107,8 @@ footer .button:hover {
     cursor: pointer;
 }
 
-footer .button i,
-footer .button p {
-padding-left: .8rem;
-}
-
 footer .button i {
-    padding-bottom: .4rem
+    padding-bottom: .4rem;
 }
 
 .text-green {
@@ -121,7 +117,7 @@ footer .button i {
 
 .end-meeting-button {
     background-color: #4a4a4a;
-    color: red;
-    padding: 2rem;
     font-size: .8rem;
+    color: red;
 }
+
