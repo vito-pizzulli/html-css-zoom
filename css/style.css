@@ -5,12 +5,25 @@
     box-sizing: border-box;
   }
 
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
   main {
     background-color: black;
     height: 90vh;
+    overflow: auto;
   }
 
   footer {
     background-color: #222222;
     height: 10vh;
+  }
+
+  .videocall-picture {
+    margin: .17rem;
+    width: 200px;
   }
