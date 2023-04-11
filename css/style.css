@@ -11,9 +11,12 @@ font-family: Arial, Helvetica, sans-serif;
 
 .flex {
 display: flex;
-flex-wrap: wrap;
 justify-content: center;
 align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .align-flex-end {
@@ -99,6 +102,8 @@ footer .button {
 header .button:hover,
 footer .button:hover {
     background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
 }
 
 footer .button i,
@@ -112,4 +117,11 @@ footer .button i {
 
 .text-green {
     color: #49c900;
+}
+
+.end-meeting-button {
+    background-color: #4a4a4a;
+    color: red;
+    padding: 2rem;
+    font-size: .8rem;
 }
