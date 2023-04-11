@@ -36,6 +36,7 @@ padding: 3.5rem 2rem 0.5rem 2rem;
 
 footer {
 background-color: #222222;
+overflow: auto;
 height: 10vh;
 }
 
