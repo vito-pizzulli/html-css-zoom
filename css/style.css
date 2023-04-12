@@ -29,7 +29,7 @@ justify-content: space-between;
 
 main {
 background-color: black;
-height: 90vh;
+height: calc(100vh - 70px);
 overflow: auto;
 padding: 3.5rem 2rem 0.5rem 2rem;
 }
@@ -37,7 +37,7 @@ padding: 3.5rem 2rem 0.5rem 2rem;
 footer {
 background-color: #222222;
 overflow: auto;
-height: 10vh;
+height: 70px;
 }
 
 .videocall-box {
@@ -48,6 +48,8 @@ cursor: grab;
 
 .videocall-picture {
 width: 200px;
+height: 100px;
+object-fit: cover;
 }
 
 header .button-section {
